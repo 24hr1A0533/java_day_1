@@ -3,9 +3,32 @@ import java.util.Scanner;
 public class Scanner_Class {
     public static void main(String[]args){
         Scanner data = new Scanner (System.in);
-        System.out.println("enter a value:");
-        int a=data.nextInt();
-        System.out.println("value of a is :"+a);
+       byte a =data.nextByte();
+        System.out.println(a);
+
+        short b =data.nextShort();
+        System.out.println(b);
+
+        int c = data.nextInt();
+        System.out.println(c);
+
+        long d = data.nextLong();
+        System.out.println(d);
+
+        float e = data.nextFloat();
+        System.out.println(e);
+
+        double f = data.nextDouble();
+        System.out.println(f);
+
+        String ap=data.next();
+        System.out.println(ap);
+        data.nextLine();
+
+        String str1=data.nextLine();
+        System.out.println(str1);
+
 
     }
 }
+
